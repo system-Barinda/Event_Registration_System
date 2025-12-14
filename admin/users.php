@@ -7,6 +7,7 @@ if ($_SESSION['user_role'] != 'admin') {
     exit();
 }
 
+
 $stmt = $pdo->prepare("SELECT * FROM users ORDER BY id DESC");
 $stmt->execute();
 $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -25,6 +26,7 @@ $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <?php include 'sidebar.php'; ?>
     
     <div class="main-content">
+        
         <div class="header">
             <h1>Manage Users</h1>
             <div class="user-info">

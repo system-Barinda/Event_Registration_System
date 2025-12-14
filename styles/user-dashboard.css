@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f8f9fa;
+    background: #abcced;
     display: flex;
     min-height: 100vh;
 }
@@ -14,7 +14,7 @@ body {
 /* Sidebar Styles */
 .sidebar {
     width: 260px;
-    background: #1e8449;
+    background: #3c3c3d;
     color: white;
     position: fixed;
     height: 100vh;
@@ -129,7 +129,7 @@ body {
 }
 
 .stat-card {
-    background: white;
+    background: rgb(3, 0, 0);
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
