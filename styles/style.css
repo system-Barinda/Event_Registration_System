@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f0fe;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #0d3b66;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    background-color: #0d3b66;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1d71b8;
+}
+
+a button {
+    background-color: #ee6c4d;
+}
+
+a button:hover {
+    background-color: #ff8a65;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+table {
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    background-color: #0d3b66;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-weight: 600;
+}
+
+p[style*="color:red"] {
+    color: #d00000;
+}
+
+p[style*="color:green"] {
+    color: #1abc9c;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    .button-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+}
